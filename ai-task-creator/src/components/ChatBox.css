@@ -1,0 +1,67 @@
+.gemini-chatbox {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  height: 25vh; /* Adjust height as needed */
+  box-sizing: border-box;
+}
+
+.message-container {
+  flex: 1;
+  overflow: auto; /* Enable scrolling without scrollbar */
+  padding: 10px; /* Add padding around the message list */
+  display: flex; /* Make the message list a flex container */
+  flex-direction: column; /* Arrange messages vertically */
+  gap: 10px; /* Add space between messages */
+}
+
+.user-message,
+.gemini-message {
+  min-width: 100px; /* Set a minimum width for the message containers */
+  max-width: 99%; /* Limit the maximum width of the message containers */
+  word-wrap: break-word; /* Allow long words to wrap within the container */
+}
+
+.user-message {
+  align-self: flex-start; /* Align user messages to the left */
+  background-color: #4caf50; /* Green background for user messages */
+  color: #fff; /* White text color for user messages */
+  border-radius: 5px;
+  padding: 10px; /* Add padding to user messages */
+}
+
+.gemini-message {
+  align-self: flex-end; /* Align model messages to the right */
+  background-color: #ccc; /* Gray background for model messages */
+  color: #000; /* Black text color for model messages */
+  border-radius: 5px;
+  padding: 10px; /* Add padding to model messages */
+}
+
+.chat-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: left; /* Center the text in the input box */
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.send-button {
+  background-color: #4caf50; /* Green background for send button */
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}

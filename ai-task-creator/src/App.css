@@ -1,0 +1,27 @@
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+  height: 70vh;
+}
+
+.app-name {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.task_column {
+  width: 33.33%;
+  margin: 20px;
+}
+
+.chat-section {
+  height: 30vh;
+}
