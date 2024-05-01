@@ -20,3 +20,21 @@ it uses the multi-chat conversational feature of Gemini AI to retain context in 
 ## Technologies Used
 - React Template (vite)
 - Google Gemini API
+
+## How To Run
+After cloning the repo, you can '''cd''' into the project directory, then run:
+<br>
+'''npm install'''
+<br>
+Once installation is complete, you can run:
+'''npm i nodemon'''
+<br>
+This is the package manager for the backend
+<br>
+'''npm run dev''' 
+<br>
+to start the development server for the frontend and
+<br>
+'''nodemon server.js'''
+<br>
+for the backend
