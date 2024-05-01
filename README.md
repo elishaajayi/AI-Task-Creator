@@ -27,7 +27,10 @@ After cloning the repo, you can '''cd''' into the project directory, then run:
 '''npm install'''
 <br>
 Once installation is complete, you can run:
+<br>
 '''npm i nodemon'''
+<br>
+```npm i dotenv nodemon express @google/generative-ai```
 <br>
 This is the package manager for the backend
 <br>
@@ -38,3 +41,5 @@ to start the development server for the frontend and
 '''nodemon server.js'''
 <br>
 for the backend
+<br>
+
