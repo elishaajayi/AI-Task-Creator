@@ -32,7 +32,7 @@ app.post("/gemini", async (req, res) => {
 
 app.get("/gemini-history", (req, res) => {
   // Send chat history as JSON response
-  res.json({ history: [] }); // Replace [] with actual chat history from your application
+  res.json({ history: [] });
 });
 
 app.listen(port, () => {
