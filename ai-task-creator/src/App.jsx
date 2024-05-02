@@ -7,6 +7,7 @@ import doingIcon from "./assets/glowing-star.png";
 import doneIcon from "./assets/check-mark-button.png";
 import ChatBox from "./components/ChatBox";
 
+// Load task list from memory
 const oldTasks = localStorage.getItem("tasks");
 
 const App = () => {

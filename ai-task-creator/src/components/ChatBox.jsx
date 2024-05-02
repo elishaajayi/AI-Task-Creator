@@ -29,7 +29,10 @@ const ChatBox = ({ handleResponse }) => {
       // Update chat history with user message
       setChatHistory((oldChatHistory) => [
         ...oldChatHistory,
-        { role: "user", parts: [{ text: value }] }, // Format user message correctly
+        {
+          role: "user",
+          parts: [{ text: value }],
+        } /* Format user message correctly */,
       ]);
 
       try {
@@ -49,13 +52,13 @@ const ChatBox = ({ handleResponse }) => {
         // Update chat history with model response
         setChatHistory((oldChatHistory) => [
           ...oldChatHistory,
-          { role: "model", parts: [{ text: data }] }, // Format model message correctly
+          { role: "model", parts: [{ text: data }] },
         ]);
         handleResponse(data);
       } catch (error) {
         setError(error.message);
       } finally {
-        setValue(""); // Clear input after sending
+        setValue("");
       }
     }
   };

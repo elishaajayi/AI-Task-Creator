@@ -13,34 +13,34 @@
 
 .message-container {
   flex: 1;
-  overflow: auto; /* Enable scrolling without scrollbar */
-  padding: 10px; /* Add padding around the message list */
-  display: flex; /* Make the message list a flex container */
-  flex-direction: column; /* Arrange messages vertically */
-  gap: 10px; /* Add space between messages */
+  overflow: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .user-message,
 .gemini-message {
-  min-width: 100px; /* Set a minimum width for the message containers */
-  max-width: 99%; /* Limit the maximum width of the message containers */
-  word-wrap: break-word; /* Allow long words to wrap within the container */
+  min-width: 100px;
+  max-width: 99%;
+  word-wrap: break-word;
 }
 
 .user-message {
-  align-self: flex-start; /* Align user messages to the left */
-  background-color: #4caf50; /* Green background for user messages */
-  color: #fff; /* White text color for user messages */
+  align-self: flex-start;
+  background-color: #4caf50;
+  color: #fff;
   border-radius: 5px;
-  padding: 10px; /* Add padding to user messages */
+  padding: 10px;
 }
 
 .gemini-message {
-  align-self: flex-end; /* Align model messages to the right */
-  background-color: #ccc; /* Gray background for model messages */
-  color: #000; /* Black text color for model messages */
+  align-self: flex-end;
+  background-color: #ccc;
+  color: #000;
   border-radius: 5px;
-  padding: 10px; /* Add padding to model messages */
+  padding: 10px;
 }
 
 .chat-input {
@@ -48,13 +48,13 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
-  text-align: left; /* Center the text in the input box */
+  text-align: left;
   width: 95%;
   margin-top: 1rem;
 }
 
 .send-button {
-  background-color: #4caf50; /* Green background for send button */
+  background-color: #4caf50;
   color: #fff;
   padding: 0.75rem 1rem;
   border: none;
@@ -63,5 +63,5 @@
 }
 
 .send-button:hover {
-  background-color: #3e8e41; /* Darker green on hover */
+  background-color: #3e8e41;
 }
