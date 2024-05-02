@@ -33,7 +33,7 @@ After cloning the repo, you can navigate to the project directory, then run:
 npm install
 ```
 
-Once installation is complete, you can run:
+Once installation is complete, you can run (if needed):
 
 ```bash
 npm i dotenv nodemon express @google/generative-ai
@@ -48,7 +48,7 @@ npm run dev
 to start the development server for the frontend, and
 
 ```bash
-nodemon server.js
+npm start
 ```
 
 to start the development server for the backend.
