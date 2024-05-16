@@ -56,7 +56,7 @@ to start the development server for the backend.
 You can use dev dependencies like concurrently to start both servers together as you like, but if you are not comfortable with that, create a new command prompt terminal in your code editor and start both servers separately.
 <br>
 
-Please note that you will need to get an API key from ai.google.dev and add it to a .env file as shown:
+Please note that you will need to get an API key from ai.google.dev and add it to a .env file in the root directory of ai-task-creator as shown:
 ```bash
 GOOGLE_GEN_AI_HACKATHON_KEY=your_api_key
 ```
