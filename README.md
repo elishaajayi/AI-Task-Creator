@@ -58,5 +58,5 @@ You can use dev dependencies like concurrently to start both servers together as
 
 Please note that you will need to get an API key from ai.google.dev and add it to a .env file as shown:
 ```bash
-GOOGLE_AI_HACKATHON_KEY=your_api_key
+GOOGLE_GEN_AI_HACKATHON_KEY=your_api_key
 ```
